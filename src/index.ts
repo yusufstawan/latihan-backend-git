@@ -33,6 +33,7 @@ app.get("/products", (req: Request, res: Response) => {
 });
 
 // Endpoint untuk membuat order
+// test update
 app.post("/orders", (req: Request, res: Response) => {
   const { productId, quantity } = req.body;
   // Logika untuk membuat order
